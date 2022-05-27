@@ -86,8 +86,67 @@ body {
     grid-row: 1/2;
 }
 
-#content-skills,
-#content-contacts,
+#skills {
+    margin-top: 20px;
+}
+
+#projects {
+    margin-top: 20px;
+}
+
+#contacts {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#cell,
+#email {
+    background-color: yellowgreen;
+    padding: 15px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#anchors {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+#github,
+#linked,
+#website,
+#download {
+    background-color: palegoldenrod;
+    padding: 15px;
+    font-weight: bold;
+    font-size: larger;
+    display: inline-block;
+}
+
+#github:hover,
+#linked:hover,
+#website:hover,
+#download:hover {
+    background-color: palevioletred;
+}
+
+#skills h1 {
+    text-align: center;
+}
+#projects h1 {
+    text-align: center;
+}
+
+#content-skills {
+    text-align: center;
+    padding: 5px;
+    font-size: medium;
+}
+
+#contacts h1 {
+    text-align: center;
+}
+
 #content-projects {
     text-align: center;
     font-size: large;
@@ -115,7 +174,8 @@ body {
     font-size: larger;
 
     background-color: darkseagreen;
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
 }
 
 @media only screen and (max-width: 650px) {
