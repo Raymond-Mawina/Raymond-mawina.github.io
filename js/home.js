@@ -245,9 +245,7 @@ function contacts() {
     raymondMawina.setEmail("rmawina@gmail.com");
     raymondMawina.setGitHub("https://github.com/Raymond-Mawina");
     raymondMawina.setWebsite("https://raymond-mawina.github.io/");
-    raymondMawina.setLinkedIn(
-        "https://www.linkedIn.com/mwlite/in/raymond-mawina-954922b7"
-    );
+    raymondMawina.setLinkedIn("https://www.linkedin.com/in/raymond-mawina/");
     raymondMawina.setCV("../pdf/RaymondMawina-CV.pdf");
 
     const contacts = document.getElementById("content-contacts");
