@@ -16,7 +16,7 @@ body {
 #header {
     display: grid;
     grid-template-columns: 1fr;
-    background-color: darkseagreen;
+    background-color: salmon;
     grid-row: 1/2;
     margin-left: 10%;
     width: 80%;
@@ -52,7 +52,8 @@ body {
 }
 
 #nav ul li a:hover {
-    background-color: cadetblue;
+    background-color: maroon;
+    color: aliceblue;
 }
 
 #content {
@@ -173,9 +174,10 @@ body {
     font-weight: bolder;
     font-size: larger;
 
-    background-color: darkseagreen;
+    background-color: salmon;
     width: 80%;
     margin-left: 10%;
+    margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 650px) {

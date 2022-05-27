@@ -224,7 +224,7 @@ function skills() {
     console.log(raymondMawina.getSkills().lebgth);
     for (let index = 0; index < raymondMawina.getSkills().length; index++) {
         const infoText = document.createElement("strong");
-        infoText.style.backgroundColor = "powderBlue";
+        infoText.style.backgroundColor = "coral";
         infoText.style.textTransform = "uppercase";
         infoText.style.padding = "15px";
         infoText.style.marginLeft = "10px";
