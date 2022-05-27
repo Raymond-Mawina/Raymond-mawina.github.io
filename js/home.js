@@ -266,13 +266,13 @@ function contacts() {
     download.href = raymondMawina.getCV();
 
     github.style.textDecoration = "none";
-    github.style.color = "black";
+    github.style.color = "white";
     linked.style.textDecoration = "none";
-    linked.style.color = "black";
+    linked.style.color = "white";
     website.style.textDecoration = "none";
-    website.style.color = "black";
+    website.style.color = "white";
     download.style.textDecoration = "none";
-    download.style.color = "black";
+    download.style.color = "white";
 }
 
 contacts();
