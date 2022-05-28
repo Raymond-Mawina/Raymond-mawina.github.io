@@ -207,7 +207,7 @@ function skills() {
     raymondMawina.setSkillIcon("devicon-html5-plain-wordmark");
     raymondMawina.setSkill("CSS");
     raymondMawina.setSkillIcon("devicon-css3-plain-wordmark");
-    raymondMawina.setSkill("JavaScript");
+    raymondMawina.setSkill("JS");
     raymondMawina.setSkillIcon("devicon-express-original");
     raymondMawina.setSkill("PHP");
     raymondMawina.setSkillIcon("devicon-php-plain");
@@ -217,13 +217,10 @@ function skills() {
     const skillz = document.getElementById("content-skills");
     //console.log(raymondMawina.getSkills().length);
     for (let index = 0; index < raymondMawina.getSkills().length; index++) {
-        const infoText = document.createElement("strong");
-        infoText.style.backgroundColor = "#26408b";
-        infoText.style.textTransform = "uppercase";
-        infoText.style.padding = "15px";
-        infoText.style.marginLeft = "10px";
-        infoText.innerText = raymondMawina.getSkills()[index];
-        skillz.appendChild(infoText);
+        const skill = document.createElement("strong");
+        skill.className = "stack";
+        skill.innerText = raymondMawina.getSkills()[index];
+        skillz.appendChild(skill);
     }
 }
 

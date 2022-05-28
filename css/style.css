@@ -26,9 +26,6 @@
         text-align: center;
     }
 
-    #nav {
-    }
-
     #nav ul {
         list-style-type: none;
     }
@@ -162,13 +159,21 @@
     #skills h1 {
         text-align: center;
     }
+
+    .stack {
+        background-color: #26408b;
+        text-transform: uppercase;
+        padding: 20px;
+        margin-left: 5px;
+    }
+
     #projects h1 {
         text-align: center;
     }
 
     #content-skills {
         text-align: center;
-        padding: 5px;
+        padding: 15px;
         font-size: medium;
     }
 
@@ -240,9 +245,6 @@
         text-align: center;
     }
 
-    #nav {
-    }
-
     #nav ul {
         list-style-type: none;
     }
@@ -287,14 +289,21 @@
         text-align: center;
     }
 
+    #content-skills {
+        width: 80%;
+        text-align: center;
+        margin-left: 10%;
+    }
+
+    .stack {
+        background-color: #26408b;
+        text-transform: uppercase;
+        padding: 2%;
+        margin-left: 2px;
+    }
+
     #mypic {
         margin-top: 25px;
-    }
-
-    #about-Me {
-    }
-
-    #about-p {
     }
 
     #myname {
