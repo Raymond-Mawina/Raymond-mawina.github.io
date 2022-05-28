@@ -296,10 +296,11 @@
     }
 
     .stack {
+        display: block;
         background-color: #26408b;
         text-transform: uppercase;
         padding: 2%;
-        margin-left: 2px;
+        margin-top: 5px;
     }
 
     #mypic {
