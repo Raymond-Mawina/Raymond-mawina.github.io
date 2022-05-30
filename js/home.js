@@ -192,9 +192,8 @@ function about() {
     myName.innerText = "I am " + raymondMawina.getName();
 
     const aboutMeText = document.getElementById("about-p");
-    for (let index = 0; index < raymondMawina.getAboutMe().length; index++) {
-        aboutMeText.innerText += raymondMawina.getAboutMe()[index];
-    }
+    aboutMeText.innerText =
+        "I am a coding newbie, aspiring to become a Software Engineer. I am learning the ins and out's of programming and the tricks of the trade when it comes to designing and developing websites and web applications. My short-term goal is to become a Junior Web developer. My long-term goal is to become a Senior Software Engineer. I am currently seeking learning opportunities, preferably learnership opportunities in the ICT Sector. I learn every day, usually by reading documentation about programming languages or frameworks. I code every day to make sure my skills become practical and applicable. My highest level of education is Grade 12, which I obtained in 2016.";
 }
 
 about();
