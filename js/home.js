@@ -248,8 +248,6 @@ function contacts() {
     github.href = raymondMawina.getGitHub();
     const linked = document.getElementById("linked");
     linked.href = raymondMawina.getLinkedIn();
-    const website = document.getElementById("website");
-    website.href = raymondMawina.getWebsite();
     const download = document.getElementById("download");
     download.href = raymondMawina.getCV();
 
@@ -257,8 +255,6 @@ function contacts() {
     github.style.color = "white";
     linked.style.textDecoration = "none";
     linked.style.color = "white";
-    website.style.textDecoration = "none";
-    website.style.color = "white";
     download.style.textDecoration = "none";
     download.style.color = "white";
 }
